@@ -3,7 +3,7 @@
 # Porfolio
 **Google case study**
 
-R programming code [Click here](https://github.com/JoshuaKab/Python-and-R/blob/main/google-case-study-joshua12.ipynb)
+Python notebook code [Click here](https://github.com/JoshuaKab/Machine-Learning/blob/main/EDA_%20Analysis%20divvy%20bike%20sharing%20progra%2C.ipynb)
 <h1>Introduction:</h1>
 
 Welcome to the Cyclistic bike-share analysis Google case study!
@@ -81,22 +81,50 @@ after 5 more columns was add
 3. Month
 4. Yeath
 5. duration
-![2023-10-19 21_32_48-PDF Viewer and Reader](https://github.com/JoshuaKab/Python-and-R/assets/135429439/9ef9c1ce-c6bb-4d11-a19a-c870870bbd3f)
 
-![2023-10-19 21_33_16-PDF Viewer and Reader](https://github.com/JoshuaKab/Python-and-R/assets/135429439/db488324-69fb-4d4d-991f-fdde69929f29)
+### Summary and Recommendation
 
-![2023-10-19 21_33_38-PDF Viewer and Reader](https://github.com/JoshuaKab/Python-and-R/assets/135429439/20cf52b6-1757-4502-a8bd-4de5f81baeb0)
+1.Summary:
+This notebook performs an exploratory data analysis (EDA) on the Cyclistic bike-share dataset, which includes data from March 2022 to February 2023. The analysis includes the following steps:
 
-![2023-10-19 21_33_52-PDF Viewer and Reader](https://github.com/JoshuaKab/Python-and-R/assets/135429439/005395d2-9bde-4298-9c2f-a62040890846)
+Data Loading and Preparation:
 
-![2023-10-19 21_34_18-PDF Viewer and Reader](https://github.com/JoshuaKab/Python-and-R/assets/135429439/3b8f04dd-7a7f-44c9-9107-fb489bb5ff03)
+Loaded 12 CSV files, each representing a month of data, and combined them into a single DataFrame.
+Converted date columns to datetime format and extracted additional features such as month, day of the week, and hour.
+Calculated ride duration and removed negative values.
+Data Cleaning:
 
-![2023-10-19 21_34_36-PDF Viewer and Reader](https://github.com/JoshuaKab/Python-and-R/assets/135429439/a3a727e8-073c-4572-afe3-effbeddbcd34)
+Checked for and removed duplicate entries.
+Ensured the data types of columns were appropriate for analysis.
 
-![2023-10-19 21_34_52-PDF Viewer and Reader](https://github.com/JoshuaKab/Python-and-R/assets/135429439/68e4aa2f-0394-4c24-81d1-0219791a54b6)
+## Exploratory Data Analysis (EDA):
 
-![2023-10-19 21_35_09-](https://github.com/JoshuaKab/Python-and-R/assets/135429439/ca9013fe-f597-40a6-a4dc-c47f33e7ccb5)
+Analyzed ride duration statistics and grouped data by month, bike type, and customer type.
+Created pivot tables to summarize ride duration and count by bike type and customer type.
+Visualized data distributions using histograms, boxplots, and bar plots.
+Identified the busiest times of day and the most popular bike types and stations.
+Statistical Analysis:
 
+Performed a t-test to compare ride durations between members and casual riders.
+Conducted an ANOVA to analyze the effect of bike type on ride duration.
+2.Recommendations:
+Marketing Strategy:
+
+Focus marketing efforts on promoting electric bikes, as they are the most popular among customers.
+Develop targeted campaigns for casual riders, who have longer ride durations on average.
+Operational Improvements:
+
+Increase the availability of bikes during peak hours (8 AM and 5 PM) to meet high demand.
+Ensure that popular stations are well-stocked with bikes, especially during weekends.
+Customer Experience:
+
+Consider offering incentives or discounts for rides during off-peak hours to balance demand.
+Improve the user experience for casual riders to encourage them to become members.
+Further Analysis:
+
+Investigate the reasons behind the high usage of electric bikes and explore opportunities to expand the fleet.
+Analyze the impact of weather conditions on ride patterns and adjust operations accordingly.
+By implementing these recommendations, Cyclistic can enhance customer satisfaction, optimize operations, and increase overall usage of the bike-share program.
 
 
 
